@@ -1,6 +1,5 @@
 #include ".xres/xft"
 #include ".xres/colors/gruvbox_dark"
-#include ".xres/urxvt"
 #include ".xres/xdm"
 #include ".xres/rofi"
 #include ".xres/2bwm"

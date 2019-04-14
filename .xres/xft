@@ -1,4 +1,3 @@
-!#define	myfont		Anonymice Powerline
 #define     myfont      Hack
 #define	    myfontsize	15
 

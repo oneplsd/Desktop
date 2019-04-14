@@ -1,5 +1,4 @@
-#! /bin/sh
-#hsetroot -solid "#839496" &
+#! /bin/zsh
 
-#xsetroot -mod 6 9 -bg grey -fg goldenrod 
+# Set xdm wallpaper
 /usr/bin/qiv -z /usr/local/share/backgrounds/at-at.jpg

@@ -68,9 +68,6 @@ void init_taskbarname_panel(void *p)
             taskbar->bar_name.area.bg = panel->g_taskbar.background_name[TASKBAR_NORMAL];
         }
 
-   /*     int icon_active = (j >= 5) ? '-' : '+';//0x2503;
-        int icon_inactive = 0x2024;
-        char *spacing = "  "; */
         // use desktop number if name is missing
         if (l) {
             taskbar->bar_name.name = g_strdup(l->data);
@@ -87,31 +84,6 @@ void init_taskbarname_panel(void *p)
 					break;
 				}
 			taskbar->bar_name.name = g_strdup_printf("%s",name);
-    /*         switch (j) {
-                case 0:
-                case 5:
-                taskbar->bar_name.name = g_strdup_printf("%lc%s%lc%s%lc%s%lc%s%lc", icon_active, spacing, icon_inactive, spacing, icon_inactive, spacing, icon_inactive, spacing, icon_inactive);
-                break;
-                case 1:
-                case 6:
-                taskbar->bar_name.name = g_strdup_printf("%lc%s%lc%s%lc%s%lc%s%lc", icon_inactive, spacing, icon_active, spacing, icon_inactive, spacing, icon_inactive,spacing, icon_inactive);
-                break;
-                case 2:
-                case 7:
-                taskbar->bar_name.name = g_strdup_printf("%lc%s%lc%s%lc%s%lc%s%lc", icon_inactive, spacing, icon_inactive, spacing, icon_active, spacing, icon_inactive, spacing, icon_inactive);
-                break;
-                case 3:
-                case 8:
-                taskbar->bar_name.name = g_strdup_printf("%lc%s%lc%s%lc%s%lc%s%lc", icon_inactive, spacing, icon_inactive, spacing, icon_inactive, spacing, icon_active, spacing, icon_inactive);
-                break;
-                case 4:
-                case 9:
-                taskbar->bar_name.name = g_strdup_printf("%lc%s%lc%s%lc%s%lc%s%lc", icon_inactive, spacing, icon_inactive, spacing, icon_inactive, spacing, icon_inactive, spacing, icon_active);
-                break;
-                default:
-                taskbar->bar_name.name = g_strdup_printf("%d", j + 1);
-                break;
-            } */ 
         }
 
         // append the name at the beginning of taskbar

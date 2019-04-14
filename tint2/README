@@ -1,0 +1,4 @@
+Changed what happens if tint2 can't find workspace names from the WM. This happens
+with 2bwm, not sure which others. Changes are on line 77, it's just a for loop to
+place the right symbol in the right place. Not guaranteed to look good without some
+tweaking
