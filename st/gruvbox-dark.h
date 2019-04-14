@@ -1,4 +1,4 @@
-static const char *colorname[] = {
+const char *colorname[] = {
 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#cc241d",
 	"#98971a",
