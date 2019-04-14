@@ -1,0 +1,7 @@
+twobwm.border_width:    10
+twobwm.focus_color:     #fabd2f
+twobwm.unfocus_color:   #282828
+twobwm.fixed_color:     #458588
+twobwm.unkill_color:    #cc241d
+twobwm.outer_border_color: #282828
+twobwm.fixed_unkill_color:  #d3869b

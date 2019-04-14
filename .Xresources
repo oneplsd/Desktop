@@ -1,0 +1,61 @@
+#include ".xres/xft"
+#include ".xres/colors/gruvbox_dark"
+#include ".xres/urxvt"
+#include ".xres/xdm"
+#include ".xres/rofi"
+#include ".xres/2bwm"
+
+!*background:	S_base03
+!*foreground:	S_base0
+
+!*color0:	S_base02
+!*color8:	S_base03
+
+!*color1:	S_red
+!*color9:	S_orange
+
+!*color2:	S_green
+!*color10:	S_base01
+
+!*color3:	S_yellow
+!*color11:	S_base00
+  
+!*color4:	S_blue
+!*color12:	S_base0
+
+!*color5:	S_magenta
+!*color13:	S_violet
+
+!*color6:	S_cyan
+!*color14:	S_base1
+
+!*color7:	S_base2
+!*color15:	S_base3
+
+!*background:	c_background
+!*foreground: 	c_foreground
+
+!*color0:		c_black0
+!*color8:		c_black1
+
+!*color1:		c_red
+!*color9:		c_red
+
+!*color2:		c_green
+!*color10:		c_green
+
+!*color3:		c_orange
+!*color11:		c_orange
+
+!*color4:		c_blue
+!*color12:		c_blue
+
+!*color5:		c_magenta
+!*color13:		c_magenta
+
+!*color6:		c_cyan
+!*color14:		c_cyan
+
+!*color7:		c_grey0
+!*color15:		c_grey1
+

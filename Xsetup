@@ -1,0 +1,5 @@
+#! /bin/sh
+#hsetroot -solid "#839496" &
+
+#xsetroot -mod 6 9 -bg grey -fg goldenrod 
+/usr/bin/qiv -z /usr/local/share/backgrounds/at-at.jpg

@@ -1,0 +1,50 @@
+Xcursor.theme: Simple-and-Soft
+Xcursor.size:  64
+
+xlogin*login.translations: #override \
+	Ctrl<Key>R: abort-display()\n\
+	<Key>F1: set-session-argument(failsafe) finish-field()\n\
+	<Key>Delete: delete-character()\n\
+	<Key>Left: move-backward-character()\n\
+	<Key>Right: move-forward-character()\n\
+	<Key>Home: move-to-begining()\n\
+	<Key>End: move-to-end()\n\
+	Ctrl<Key>KP_Enter: set-session-argument(failsafe) finish-field()\n\
+	<Key>KP_Enter: set-session-argument() finish-field()\n\
+	Ctrl<Key>Return: set-session-argument(failsafe) finish-field()\n\
+	<Key>Return: set-session-argument() finish-field()
+
+xlogin*greeting: Welcome to Arch Linux
+xlogin*namePrompt: \040\040\040Login:
+xlogin*fail: Incorrect 
+
+xlogin*greetFace:	Hack-36:style=Bold !Anonymous\040Pro-36:style=Bold
+xlogin*face: 		Hack-19     !Anonymous\040Pro-19
+xlogin*promptFace: 	Hack-19:bold     !Anonymous\040Pro-19:bold
+xlogin*failFace: 	Hack-19:bold     !Anonymous\040Pro-19:bold
+Xft.dpi:		144
+
+xlogin*borderWidth: 0
+xlogin*frameWidth: 3
+xlogin*innerFramesWidth: 1
+xlogin*shdColor: #282828
+xlogin*hiColor: #282828
+xlogin*background: #282828 
+xlogin*inpColor: #ebdbb2
+xlogin*foreground: #282828
+xlogin*greetColor: #d65d0e
+xlogin*failColor: #cc241d
+*Foreground: #ebdbb2
+*Background: #282828
+
+xlogin*useShape: false
+xlogin*logoPadding: 10
+
+Chooser*geometry:		400x200+200+100
+Chooser*allowShellResize:	false
+Chooser*viewport.forceBars:	true
+Chooser*label.font:		*-new century schoolbook-bold-i-normal-*-240-*
+Chooser*label.label:		XDMCP Host Menu from CLIENTHOST
+Chooser*list.font:		-*-*-medium-r-normal-*-*-230-*-*-c-*-iso8859-1
+Chooser*Command.font:		*-new century schoolbook-bold-r-normal-*-180-*
+

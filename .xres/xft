@@ -1,0 +1,17 @@
+!#define	myfont		Anonymice Powerline
+#define     myfont      Hack
+#define	    myfontsize	15
+
+Xft*dpi:	144
+Xft*autohint:	0
+Xft*lcdfilter:	lcddefault
+Xft*hintstyle:	hintslight
+Xft*hinting:	1
+Xft*antialias:	1
+Xft*rgba:	rgb
+
+*faceName:	 xft:myfont:size=myfontsize
+*font:		 xft:myfont:size=myfontsize
+*boldFont:	 xft:myfont:style=Bold:size=myfontsize
+*italicFont:	 xft:myfont:style=Italic:size=myfontsize
+*boldItalicFont: xft:myfont:style=Bold Italic:size=myfontsize
